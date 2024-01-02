@@ -4,7 +4,9 @@ export default function Home() {
     return (
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 m-auto shadow-md">
             <a href="#">
-                <Image className="rounded-t-lg" src="https://dummyimage.com/600x400/ded7de/a7aad1&text=Joy" alt="" height={600} width={400}/>
+                <Image className="rounded-t-lg" 
+                src="https://dummyimage.com/600x400/ded7de/a7aad1&text=Joy" 
+                alt="" height={600} width={400} priority={false} />
             </a>
             <div className="p-5">
                 <a href="#">
